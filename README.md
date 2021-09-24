@@ -32,12 +32,11 @@ The content of `HEAD` is stored inside `.git/HEAD` and it contains the 40 bytes 
 ===
 If you are not on the latest commit - meaning that `HEAD` is pointing to a prior commit in history its called ***`detached HEAD`***.
 
-[![enter image description here][1]][1]
-
+![Setting Screen](https://github.com/shamera82/knowledge_git/blob/master/images/OlavO.png?raw=true)
 On the command line, it will look like this- SHA-1 instead of the branch name since the `HEAD` is not pointing to the tip of the current branch
 
-[![enter image description here][3]][3]
-[![enter image description here][2]][2]
+![Setting Screen](https://github.com/shamera82/knowledge_git/blob/master/images/qplvo.png?raw=true)
+![Setting Screen](https://github.com/shamera82/knowledge_git/blob/master/images/U0l3s.png?raw=true)
 ---
 ###A few options on how to recover from a detached HEAD:
 
@@ -75,8 +74,7 @@ You can always use the `reflog` as well.
     
 This will get you back to your desired commit
 
-[![enter image description here][4]][4]
-
+![Setting Screen](https://github.com/shamera82/knowledge_gitblob/master/images/atW9w.png?raw=true)
 ---
 
 ###***[`git reset --hard <commit_id>`](https://git-scm.com/docs/git-reset)***
@@ -119,10 +117,3 @@ As you can see there `reset && checkout` modify the `HEAD`.
 
 ![Setting Screen](https://github.com/shamera82/knowledge_git/blob/master/images/NuThL.png?raw=true)
 
-
-  [1]: https://github.com/shamera82/knowledge_git/blob/master/images/OlavO.png?raw=true
-  [2]: https://github.com/shamera82/knowledge_git/blob/master/images/U0l3s.png?raw=true
-  [3]: https://github.com/shamera82/knowledge_git/blob/master/images/qplvo.png?raw=true
-  [4]: https://github.com/shamera82/knowledge_gitblob/master/images/atW9w.png?raw=true
-  [5]: https://github.com/git/git/blob/master/Documentation/RelNotes/2.7.0.txt
-  [6]: https://github.com/shamera82/knowledge_git/blob/master/images/NuThL.png?raw=true
