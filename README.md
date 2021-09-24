@@ -1,5 +1,22 @@
 # knowledge_git
 
+
+
+
+## Discard current local commit 
+
+### If you want to keep the locally changed files, and just delete commit message:
+<!-- language: lang-sh -->
+    git reset HEAD^
+---
+or:
+<!-- language: lang-sh -->
+    git reset --soft commit_id
+---
+or: 
+<!-- language: lang-sh -->
+    git reset --soft HEAD^
+---
 Before answering let's add some background, explaining what is this `HEAD`. since some of the options below will result in detached head
 
 ***`First of all what is HEAD?`***
