@@ -120,9 +120,9 @@ As you can see there `reset && checkout` modify the `HEAD`.
 [![enter image description here][6]][6]
 
 
-  [1]: https://github.com/shamera82/knowledge_git/images/OlavO.png
-  [2]: https://github.com/shamera82/knowledge_git/images/U0l3s.png
-  [3]: https://github.com/shamera82/knowledge_git/images/qplvo.png
-  [4]: https://github.com/shamera82/knowledge_git/images/atW9w.png
+  [1]: https://github.com/shamera82/knowledge_git/tree/main/images/OlavO.png
+  [2]: https://github.com/shamera82/knowledge_git/tree/main/images/U0l3s.png
+  [3]: https://github.com/shamera82/knowledge_git/tree/main/images/qplvo.png
+  [4]: https://github.com/shamera82/knowledge_git/tree/main/images/atW9w.png
   [5]:https://github.com/git/git/blob/master/Documentation/RelNotes/2.7.0.txt
-  [6]: https://github.com/shamera82/knowledge_git/images/NuThL.png
+  [6]: https://github.com/shamera82/knowledge_git/tree/main/images/NuThL.png
