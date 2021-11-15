@@ -3,7 +3,7 @@
 #### stash repo
 
 #### Step 1 : Create a Blank repository on Github without Readme.md
-![ref log](https://github.com/shamera82/knowledge_git/blob/main/images/create-github-repo-without-any-readme-files.jpg.png?raw=true)
+![ref log](https://github.com/shamera82/knowledge_git/blob/main/images/create-github-repo-without-any-readme-files.jpg?raw=true)
 
 #### Step 2 : Moving all code and content from bitbucket
 1. Check out the existing repository from Bitbucket:
