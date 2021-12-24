@@ -1,5 +1,24 @@
 # knowledge_git
 
+### If you need to change the 
+```sh
+git commit -am "shameras-2nd ip" --author="Shamera Ranatunga <shamera.ranathunga@xxx.xxx>"
+
+$ git commit -am "shameras-2nd ip" --author="Shamera Ranatunga <shamera.ranathunga@xxx.xxx>"
+[master b88292a] shameras-2nd ip
+ Author: Shamera Ranatunga <shamera.ranathunga@xxx.xxx>
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+AzureAD+ShameraRanathunga@LAB3-ddd MINGW64 ~/git/..../templates (master)
+$ git log --branches --not --remotes
+commit b88292ab8e18113c42e4a222f3a8f69a6956d068 (HEAD -> master)
+Author: Shamera Ranatunga <shamera.ranathunga@xxx.xxx>
+Date:   Fri Dec 24 14:02:03 2021 +1300
+
+    shameras-2nd ip
+```
+
+
 ### Find only local commits, not push to the remote branch
 ```sh
 git log --branches --not --remotes
