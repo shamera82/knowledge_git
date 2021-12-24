@@ -1,6 +1,9 @@
 # knowledge_git
 
-
+### Find only local commits, not push to the remote branch
+```sh
+git log --branches --not --remotes
+```
 
 
 ## Discard current local commit 
