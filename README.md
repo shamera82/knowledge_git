@@ -1,5 +1,22 @@
 # knowledge_git
 
+### List All Branches
+NOTE: The current local branch will be marked with an asterisk (*).
+
+To see local branches, run this command:
+```sh
+git branch
+```
+To see remote branches, run this command:
+```sh
+git branch -r
+```
+To see all local and remote branches, run this command:
+```sh
+git branch -a
+```
+
+
 ### If you need to change the 
 ```sh
 git commit -am "shameras-2nd ip" --author="Shamera Ranatunga <shamera.ranathunga@xxx.xxx>"
