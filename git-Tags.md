@@ -92,4 +92,20 @@ v0.0.3
 v0.0.4
 ```
 
+### Updating exsisting tag
+
+Delete the tag on any remote before you push
+```
+git push origin :refs/tags/v0.0.4
+```
+Replace the tag to reference the most recent commit
+```
+git tag -fa v0.0.4 "this is the update tag"
+```
+
+Push the tag to the remote origin
+```
+git push origin master --tags
+```
+
 This is all about git tagging. Enjoy !!!
