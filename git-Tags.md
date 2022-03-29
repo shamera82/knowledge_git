@@ -108,4 +108,13 @@ Push the tag to the remote origin
 git push origin master --tags
 ```
 
+### Tag on a old Tag
+```
+# add tag to specific commit 
+git tag -a v1.2 9fceb02 -m "This is tag for the commit 9fceb02"
+
+# push the tag to the remote repo
+git push origin v1.2
+```
+
 This is all about git tagging. Enjoy !!!
