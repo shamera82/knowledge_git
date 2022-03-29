@@ -81,6 +81,13 @@ changes and commit them, and you can discard any commits you make in this
 state without impacting any branches by performing another checkout.
 ```
 
+### Checking out Tags
+If you do this and make a commit, your version2 branch will be slightly different than your v2.0.0 tag since it will move forward with your new changes, so do be careful.
+```
+git checkout -b version2 v0.0.3
+Switched to a new branch 'version2'
+```
+
 ### Deleting a Tag
 You may find a situation were you want to delete a certain tag. There’s a very useful command for this situations:
 
