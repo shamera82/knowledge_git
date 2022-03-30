@@ -97,8 +97,28 @@ $ git tag
 v0.0.1
 v0.0.3
 v0.0.4
-```
 
+```
+To delete a tag on your local repository, you can use git tag -d <tagname>. For example, we could remove our lightweight tag above as follows:
+```
+$ git tag -d v1.4-lw
+Deleted tag 'v1.4-lw' (was e7d5add)
+```
+Note that this does not remove the tag from any remote servers. There are two common variations for deleting a tag from a remote server.
+
+The first variation is git push <remote> :refs/tags/<tagname>:
+```
+$ git push origin :refs/tags/v1.4-lw
+To /git@github.com:schacon/simplegit.git
+ - [deleted]         v1.4-lw
+```
+The way to interpret the above is to read it as the null value before the colon is being pushed to the remote tag name, effectively deleting it.
+
+The second (and more intuitive) way to delete a remote tag is with:
+```
+$ git push origin --delete <tagname>
+```
+  
 ### Updating exsisting tag
 
 Delete the tag on any remote before you push
