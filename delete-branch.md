@@ -26,3 +26,18 @@ git push --delete <remote name> <branch name>
 It’s like you’re pushing—sending—the order to delete the branch to the remote repository.
 
 With that out of the way, we’ll now explore the deletion of branches in Git in some more depth.
+
+
+### simple way
+```
+## delete local
+➜  tf_azure_vm git:(master) git branch -d feature/fix-infra            
+Deleted branch feature/fix-infra (was 75gy0a3).
+
+## delete remote
+➜  tf_azure_vm git:(master) git push origin --delete  feature/fix-infra                  
+Enter passphrase for key '/Users/shamera/.ssh/id_rsa': 
+To ssh.dev.azure.com:v3/shamera/cloud/tf_azure_vm
+ - [deleted]         feature/fix-infra
+➜  tf_azure_vm git:(master) 
+```
